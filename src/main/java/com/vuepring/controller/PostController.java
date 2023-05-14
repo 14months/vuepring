@@ -21,6 +21,10 @@ public class PostController {
         return "asdf";
     }
 
+    @GetMapping("/asdf")
+    public String get2() {
+        return "asdfaf";
+    }
 
 
 
